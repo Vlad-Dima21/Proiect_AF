@@ -340,7 +340,7 @@ void Graf::SortTopDFS(int nodCrt, list<int> &listaTop, bool* vizitat)
         if (!vizitat[fiu])
             {
                 SortTopDFS(fiu,listaTop,vizitat);
-                vizitat[fiu] = true;///pentru fiii comuni
+                vizitat[fiu] = true;
             }
 
     ///adaug nodul curent atunci cand se iese din el in timpul parcurgerii dfs
